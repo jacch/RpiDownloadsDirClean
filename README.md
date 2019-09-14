@@ -11,5 +11,7 @@ chmod +x RpiDownloadsDirClean/backupdelete.sh
 /home/pi/RpiDownloadsDirClean/backupdelete.sh
 
 # add to crontab
+
 crontab -e
+
 0 21 * * * /home/pi/RpiDownloadsDirClean/backupdelete.sh
