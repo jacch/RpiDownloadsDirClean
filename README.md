@@ -1,15 +1,14 @@
 # RpiDownloadsDirClean
-Clean Raspberry pi downloads dir files
+Clean Raspberry pi downloads dir and screen shot files
 
-# add backup and crontab 
-
+# Download From Github
 git clone https://github.com/jacch/RpiDownloadsDirClean
 
 # grant excute permission
 
 chmod +x RpiDownloadsDirClean/backupdelete.sh
 
-#try to run
+# try to run
 
 /home/pi/RpiDownloadsDirClean/backupdelete.sh
 
